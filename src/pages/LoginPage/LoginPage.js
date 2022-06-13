@@ -90,12 +90,12 @@ export default {
   mounted() {
     this.setAnimIn("slideInDown");
     this.setAnimOut("slideOutDown");
-    setInterval(
-      function() {
+    // setInterval(
+    //   function() {
         this.cekMaintain();
-      }.bind(this),
-      2000
-    );
+    //   }.bind(this),
+    //   2000
+    // );
     // this.$q.localStorage.remove("isNotSplash");
     // alert(this.$q.localStorage.getItem("isNotSpalsh"));
   }
